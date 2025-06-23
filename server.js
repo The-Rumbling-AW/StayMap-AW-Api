@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
+
 let db = JSON.parse(fs.readFileSync('db.json', 'utf8'));
 
 // Ruta especial para buscar usuario por email
