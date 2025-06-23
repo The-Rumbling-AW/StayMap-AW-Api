@@ -22,6 +22,7 @@ app.get('/users', (req, res) => {
   }
 });
 
+
 // CRUD genérico para cada colección
 Object.keys(db).forEach((key) => {
   // GET ALL (excepto users, ya manejado arriba)
