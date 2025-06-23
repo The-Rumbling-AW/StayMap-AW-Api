@@ -76,3 +76,6 @@ app.get('/posts', (req, res) => {
 app.listen(PORT, () => {
   console.log(`API STAYMAP corriendo en puerto ${PORT}`);
 });
+
+
+
